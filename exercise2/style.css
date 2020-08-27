@@ -1,0 +1,40 @@
+.container {
+    background: white;
+    width: 220px;
+    height: 220px;
+
+}
+
+.interior {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 5px 0;
+}
+.div1 {
+    background-color: blue;
+}
+
+.div2 {
+    background-color: blue;
+    float: right;
+}
+
+.div3 {
+    background-color: blue;
+}
+
+.div4 {
+    background-color: blue;
+    float: right;
+}
+
+.div5 {
+    background-color: red;
+    position: absolute;
+    top: 65px;
+    left: 67px;
+    transform: rotate(45deg);
+}
+
+
