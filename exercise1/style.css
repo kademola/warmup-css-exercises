@@ -1,39 +1,31 @@
-.container {
-    background: white;
-    width: 220px;
-    height: 220px;
-
+* {
+  box-sizing: border-box;
 }
-
 .interior {
-    width: 100px;
-    height: 100px;
-    display: inline-block;
-    margin: 5px 0;
-}
-.div1 {
-    background-color: blue;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 5px 0;
+  position: absolute;
+  background-color: blue;
 }
 
 .div2 {
-    background-color: blue;
-    float: right;
+  left: 125px;
 }
 
 .div3 {
-    background-color: blue;
+  top: 125px;
 }
 
 .div4 {
-    background-color: blue;
-    float: right;
+  top: 125px;
+  left: 125px;
 }
 
 .div5 {
-    background-color: red;
-    position: absolute;
-    top: 65px;
-    left: 65px;
+  background-color: red;
+  position: absolute;
+  top: 65.5px;
+  left: 65.5px;
 }
-
-
